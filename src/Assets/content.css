@@ -1,0 +1,23 @@
+#content-box{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background-color: #ed92758c;
+    box-shadow: 0px 5px 11px -8px black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+#content-box::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.task-name{
+    font-size: 20px;
+    font-weight: 300;
+}
