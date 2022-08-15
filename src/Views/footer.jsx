@@ -1,5 +1,6 @@
 import react from "react"
 import "../Assets/footer.css"
+
 let date = new Date().getFullYear()
 
 function Footer(){
